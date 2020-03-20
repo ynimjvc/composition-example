@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 40px;
+}
+
+.warning {
+    background: #f9f9f9;
+    border: 1px dashed #e0e0e0;
+    color: #8a8989;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding-bottom: 20px;
+    box-shadow: 4px 2px 42px 2px rgba(0,0,0,0.13);
+}
+
+.material .card-content {
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+.material .card-content h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.material .card-content h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #ffffff;
+    padding: 400px 10px 10px 10px;
+    background-image: url(https://images.unsplash.com/photo-1556687944-2e0bf0aa68d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+}
+
+.material .card-content p {
+    text-align: right;
+    padding: 0 10px 0 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.metro {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    height: 400px;
+    box-shadow: 4px 2px 42px 2px rgba(0,0,0,0.13);
+}
+
+.metro .pic {
+    background-image: url(https://www.reddevelopment.com/wp-content/uploads/2018/12/cityscape1.jpg);
+}
+
+.metro .card-content {
+    padding: 30px 100px 50px 10px;
+    font-family: 'Bebas Neue';
+    font-size: 16px;
+    color: #404040;
+    background: #fffefd;
+}
+
+.metro .card-content h1 {
+    padding: 0 0 80px 0;
+    margin: 0;
+    font-size: 4rem;
+}
+
+.metro .card-content h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+.metro .card-content p {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: right;
+}
